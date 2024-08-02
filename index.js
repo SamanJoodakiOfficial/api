@@ -19,5 +19,5 @@ app.get("/onlinePlayers", (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log(Server is running on ${PORT});
+    console.log(`Server is running on ${PORT}`);
 })
